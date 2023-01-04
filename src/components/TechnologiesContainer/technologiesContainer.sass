@@ -1,5 +1,6 @@
-@use '../variables'
-@use '../mixins'
+@use '../../styles/variables'
+@use '../../styles/mixins'
+@import 'animate.css'
 
 .technologies-container
     margin-bottom: 1rem
@@ -16,6 +17,8 @@
         border: 1px solid #333
         width: 45%
         border-radius: variables.$card-border-radius
+        animation: fadeIn 4s
+        cursor: pointer
 
         @media screen and (max-width:950px)
             width: 100%

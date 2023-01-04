@@ -13,7 +13,7 @@ import {
   SiPostgresql
 } from 'react-icons/si'
 
-import '../styles/components/technologiesContainer.sass';
+import './technologiesContainer.sass';
 
 const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 /> },

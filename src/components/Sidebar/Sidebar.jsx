@@ -1,8 +1,8 @@
-import perfil from '../img/port_pic.jpg';
+import perfil from '../../img/port_pic.jpg';
 
-import '../styles/components/sidebar.sass';
-import { InfoContainer } from './InfoContainer';
-import { SocialNetworks } from './SocialNetworks';
+import './sidebar.sass';
+import { InfoContainer } from '../InfoContainer/InfoContainer.jsx';
+import { SocialNetworks } from '../SocialNetwork/SocialNetworks.jsx';
 
 export const Sidebar = () => {
   return (
