@@ -16,14 +16,17 @@
         border: 1px solid #333
         width: 45%
         border-radius: variables.$card-border-radius
-        
-        div
-            
+
+        @media screen and (max-width:950px)
+            width: 100%
+        @media screen and (max-width:810px)
+            width: 45%
+        @media screen and (max-width:570px)
+            width: 100%
 
         h3
             color: variables.$text-color
             
-
         svg
             font-size: 3rem
     
@@ -55,3 +58,9 @@
         svg
             color: #00FF00
     
+
+    .tech-chard
+        width: 100%
+
+        svg
+            min-width: 1rem
