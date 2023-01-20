@@ -20,6 +20,7 @@ import {
 } from 'react-icons/si'
 
 import './styles/app.sass';
+import { ProjectModal } from './components/ProjectModal/ProjectModal';
 
 function App() {
 
@@ -88,15 +89,17 @@ function App() {
   
   const [modalTech, setModalTech] = useState(false)
   const [tech, setTech] = useState(technologies)
+  const [modalProject, setModalProject] = useState(false)
   const [infoTech, setInfoTech] = useState()
 
   return (
     <>
     {modalTech && <TechModal infoTech={infoTech} setModalTech={setModalTech} modalTech={modalTech}/>}
+    {modalProject && <ProjectModal setModalProject={setModalProject} modalProject={modalProject}/>}
     <div id="portfolio">
       <h1>José Ingleson</h1>
       <Sidebar />
-      <MainContent setModalTech={setModalTech} modalTech={modalTech} tech={tech} setInfoTech={setInfoTech}/>
+      <MainContent setModalTech={setModalTech} modalTech={modalTech} tech={tech} setInfoTech={setInfoTech} setModalProject={setModalProject} modalProject={modalProject}/>
     </div>
     </>
   )

@@ -1,0 +1,108 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+@import 'animate.css'
+    
+.modal-main-project
+    z-index: 4
+    position: fixed
+    display: flex
+    align-items: center
+    justify-content: center
+
+    width: 100%
+    height: 100vh
+    background-color: rgba(0,0,0,.25)
+
+    section
+        animation: zoomIn 1s
+        width: 90%
+        max-width: 800px
+
+        .base-div-project
+            width: 100%
+            height: 400px
+            background-color: variables.$bg-color-secondary
+            border-radius: variables.$card-border-radius
+            border: 1px solid #fff
+
+            header
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                margin: 0 auto
+                padding-top: 10px
+
+                border-bottom: 1px solid variables.$text-color-thirty
+
+                width: 100%
+
+                h2
+                    padding-left: 35px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    color: variables.$text-color-thirty
+
+                button
+                    background-color: transparent
+                    border: none
+                    color: #fff
+                    font-size: 20px
+                    cursor: pointer
+                    width: 40px
+                    margin: 0 10px 10px 0
+                    font-weight: bold
+                button:hover
+                    background: variables.$gradient 
+                    border-radius: 5px
+
+            ul
+                overflow-x: hidden
+                display: flex
+                flex-direction: row
+                justify-content: center
+                flex-wrap: wrap
+
+                height: 350px
+                padding-top: 10px
+                gap: 10px
+
+                a
+                    width: 370px
+                    background: variables.$gradient
+                    padding: 10px
+
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+
+                    border-radius: variables.$card-border-radius
+                    cursor: pointer
+
+                    h2
+                        color: #fff
+                        font-style: italic
+                        margin-bottom: 10px
+
+                    img
+                        width: 250px
+                        height: 150px   
+                        border-radius: variables.$card-border-radius 
+
+                    p
+                        margin-top: 10px
+                        width: 85%
+
+                        color: #fff 
+                        font-style: italic
+
+                a:hover 
+                    transform: scale(1.1)
+                    z-index: 10
+                    border: 1px solid #fff
+                    padding: 20px
+
+                    p
+                        width: 60%
+                
