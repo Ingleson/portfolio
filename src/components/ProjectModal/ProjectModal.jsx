@@ -13,7 +13,7 @@ export const ProjectModal = ({modalProject, setModalProject}) => {
             <button onClick={() => setModalProject(!modalProject)}>X</button>
           </header>
           <ul>
-            {projectList.map((project) => (
+            {projectList.sort(() => {return Math.random() - 0.5}).map((project) => (
               <li key={project.title}>
                 <h2>{project.title}</h2>
                 <img src={project.img} alt={project.title} />
