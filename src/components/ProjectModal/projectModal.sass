@@ -16,7 +16,7 @@
     section
         animation: zoomIn 1s
         width: 90%
-        max-width: 800px
+        max-width: 850px
 
         .base-div-project
             width: 100%
@@ -66,9 +66,9 @@
 
                 height: 350px
                 padding-top: 10px
-                gap: 10px
+                gap: 30px
 
-                a
+                li
                     width: 370px
                     background: variables.$gradient
                     padding: 10px
@@ -98,12 +98,33 @@
                         color: #fff 
                         font-style: italic
 
-                a:hover 
+                    div
+                        display: flex
+                        justify-content: space-between
+                        width: 60%
+
+                        margin-top: 10px
+
+                        a
+                            display: flex
+                            align-items: center
+                            justify-content: center
+                            width: 80px
+                            height: 30px
+
+                            background-color: variables.$bg-color
+                            border-radius: 4px
+
+                            font-style: italic
+                            color: #fff
+                        a:hover
+                            opacity: 70%
+
+                li:hover 
                     transform: scale(1.1)
                     z-index: 10
                     border: 1px solid #fff
                     padding: 20px
+                    animation: fadeIn 2s
 
-                    p
-                        width: 60%
                 
