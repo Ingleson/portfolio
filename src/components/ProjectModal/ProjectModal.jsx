@@ -14,11 +14,15 @@ export const ProjectModal = ({modalProject, setModalProject}) => {
           </header>
           <ul>
             {projectList.map((project) => (
-              <a key={project.title} href={project.link} target='_blank'>
+              <li key={project.title}>
                 <h2>{project.title}</h2>
                 <img src={project.img} alt={project.title} />
                 <p>{project.description}</p>
-              </a>
+                <div>
+                  <a href={project.linkGithub} target='_blank'>Code</a>
+                  <a href={project.linkProject} target='_blank'>Project</a>
+                </div>
+              </li>
             ))}
           </ul>
         </div>
