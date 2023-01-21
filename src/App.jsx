@@ -92,6 +92,13 @@ function App() {
   const [modalProject, setModalProject] = useState(false)
   const [infoTech, setInfoTech] = useState()
 
+  document.onkeydown = function(e) {
+    if(e.key === 'Escape') {
+      setModalProject(false)
+      setModalTech(false)
+    }
+  }
+
   return (
     <>
     {modalTech && <TechModal infoTech={infoTech} setModalTech={setModalTech} modalTech={modalTech}/>}
