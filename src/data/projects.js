@@ -37,7 +37,7 @@ const projectList = [
     img: nuKenzie,
     title: 'NuKenzie',
     description: 'Aplicação para gerenciamento de despesas.',
-    linkProject: 'https://react-entrega-s1-nu-kenzie-ingleson.vercel.app/',
+    linkProject: 'https://nu-kenzie-eta-eight.vercel.app/',
     linkGithub: 'https://github.com/Ingleson/NuKenzie'
   }
 ]
