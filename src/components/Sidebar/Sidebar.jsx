@@ -8,11 +8,11 @@ export const Sidebar = () => {
   return (
     <aside id="sidebar">
       <img src={perfil} alt="avatar"/>
-      <p className="title">Desenvolvedor Front-End</p>
+      <p className="title">Desenvolvedor Full-Stack</p>
       <SocialNetworks />
       <InfoContainer />
       <a href="https://drive.google.com/u/0/uc?id=15HEHqGqYkby4ZWnHZhsY5d9Su-vRDAGe&export=download" className='btn'>
-        Currículo Dowload
+        Currículo Download
       </a>
     </aside>
   )

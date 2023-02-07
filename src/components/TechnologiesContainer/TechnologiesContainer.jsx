@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import './technologiesContainer.sass';
 
 export const TechnologiesContainer = ({setModalTech, modalTech, tech, setInfoTech}) => {

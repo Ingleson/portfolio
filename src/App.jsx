@@ -11,12 +11,15 @@ import {
   DiReact,
   DiSass,
   DiNodejsSmall,
+  DiDjango,
 } from 'react-icons/di';
 import {
   SiTypescript,
   SiStyledcomponents,
   SiExpress,
-  SiPostgresql
+  SiPostgresql,
+  SiPython,
+  SiGit
 } from 'react-icons/si'
 
 import './styles/app.sass';
@@ -84,6 +87,26 @@ function App() {
       description: "O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel. Com uma miríade de métodos utilitários HTTP e middleware a seu dispor, criar uma API robusta é rápido e fácil.",
       link: "https://expressjs.com/pt-br/",
       icon: <SiExpress />,
+    },
+    { id: "python", 
+      name: "Python", 
+      description: "Traduzido do inglês-Python é uma linguagem de programação de alto nível e de uso geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é digitado dinamicamente e coletado como lixo.",
+      link: "https://www.python.org/",
+      icon: <SiPython />,
+    },
+    {
+      id: "django",
+      name: "Django",
+      description: "Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view. Foi criado originalmente como sistema para gerenciar um site jornalístico na cidade de Lawrence, no Kansas. Tornou-se um projeto de código aberto e foi publicado sob a licença BSD em 2005.",
+      link: "https://www.djangoproject.com/",
+      icon: <DiDjango />
+    },
+    {
+      id: "git",
+      name: "Git",
+      description: "Git ₍ₒᵤ em inglês britânico₎ é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.",
+      link: "https://git-scm.com/",
+      icon: <SiGit />
     }
   ]
   
