@@ -2,7 +2,8 @@ import kenziehub from '../img/kenzieHub.png';
 import miniquiz from '../img/mini-quiz.png';
 import transactionApp from '../img/transactionApp.png';
 import hamburguer from '../img/hamburgueria.png';
-import nuKenzie from '../img/nuKenzie.png'
+import nuKenzie from '../img/nuKenzie.png';
+import noteCtts from '../img/note_ctts.png';
 
 const projectList = [
   {
@@ -39,6 +40,13 @@ const projectList = [
     description: 'Aplicação para gerenciamento de despesas.',
     linkProject: 'https://nu-kenzie-eta-eight.vercel.app/',
     linkGithub: 'https://github.com/Ingleson/NuKenzie'
+  },
+  {
+    img: noteCtts,
+    title: 'Note-Ctts',
+    description: 'Aplicação full-stack para gerenciamento de contatos.',
+    linkProject: 'https://note-ctts.vercel.app/',
+    linkGithub: 'https://github.com/Note-Ctts'
   }
 ]
 
