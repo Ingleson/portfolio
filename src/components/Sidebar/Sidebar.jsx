@@ -11,7 +11,7 @@ export const Sidebar = () => {
       <p className="title">Desenvolvedor Full-Stack</p>
       <SocialNetworks />
       <InfoContainer />
-      <a target='_blank' href="https://docs.google.com/document/d/1DD0M-GeoTuTdC_GOTwlfaOztcjS_c03jtHjmJdKH2EE/edit?usp=sharing" className='btn'>
+      <a href="https://drive.google.com/u/0/uc?id=17VUHzFNTGdgqwq2MC4ccZt5R76RBJd-D&export=download" className='btn'>
         Currículo Download
       </a>
     </aside>
